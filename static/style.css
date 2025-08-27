@@ -51,9 +51,9 @@ header nav a:hover {
     text-decoration: none;
     color: white;
     background-color: rgb(69, 128, 255);
-    padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
+    padding: 20px;
 
 }
 
@@ -77,4 +77,38 @@ img {
 footer {
     margin-top: 100px;
     text-align: center;
+}
+
+.container {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+}
+.content {
+       margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+
+.section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
 }

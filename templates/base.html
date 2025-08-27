@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <title>Davi Artur</title>
 </head>
+
 <body>
     <header>
         <h2>Davi Artur</h2>
@@ -15,15 +18,16 @@
         </nav>
     </header>
 
-<main>
-    {% block content %}
-    {% endblock %}
-</main>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2025 Davi Artur. All rights reserved.</p>
-    </div>
-</footer>
+    <footer>
+        <div class="foot">
+            <p>&copy; 2025 Davi Artur. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
