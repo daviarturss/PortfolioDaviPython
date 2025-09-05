@@ -84,7 +84,7 @@ footer {
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     height: 200px;
     width: 350px;
     text-align: center;
@@ -106,9 +106,13 @@ footer {
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     height: 200px;
     width: 350px;
     text-align: center;
     display: inline-block;
+}
+
+.imgabout {
+    padding: 50px;
 }
