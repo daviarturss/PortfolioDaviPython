@@ -1,16 +1,33 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-{% block content %}
-<img src="{{ url_for('static', filename='images/profile.png') }}" alt="">
-<p>Hi, I'm </p>
-<h2>Davi Artur</h2>
-<h3>Developer</h3>
-<div class="cv">
-<a href="{{ url_for('static', filename='files/cv.pdf') }}" target="_blank">Download CV</a>
-</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/daviartur/" target="_blank"><i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/DaviArturss" target="_blank"><i class="fab fa-github"></i></a>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Davi Artur</title>
+</head>
 
-{% endblock %}
+<body>
+    <header>
+        <h2>Davi Artur</h2>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="foot">
+            <p>&copy; 2025 Davi Artur. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
