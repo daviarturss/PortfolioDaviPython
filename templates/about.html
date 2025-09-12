@@ -2,15 +2,19 @@
 
 {% block content %}
 <section>
-<div class="imgabout">
-    <h2>About Me</h2>
-    <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="imgabout">
-</div>
-<div class="content">
-    <p>I am a cloud technology enthusiast focused on developing scalable and efficient solutions. Currently pursuing a
-        degree in Systems Analysis and Development, I constantly seek to expand my knowledge in cloud architectures,
-        DevOps, and software development.</p>
-</div>
+    <div class="imgabout">
+        <h2>About Me</h2>
+        <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="imgabout">
+    </div>
+    <div class="content">
+        <div class="aboutext">
+        <p>I am studying Python and have already developed small projects that allowed me to apply
+            fundamental concepts of the language, such as data structures, automation, and programming logic. I am also
+            deepening my knowledge in SQL, focusing on data manipulation and building efficient queries for analysis and
+            organization of information. Additionally, I have completed web projects using HTML, CSS, JavaScript, and
+            Python, integrating front-end and back-end in simple applications.</p>
+        </div>
+    </div>
 </section>
 
 <div class="container">

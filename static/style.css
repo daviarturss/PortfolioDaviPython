@@ -90,15 +90,22 @@ footer {
     text-align: center;
 }
 .content {
-       margin-bottom: 50px;
+     margin-bottom: 100px;
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 5px;
-    
+    max-width: 500px;
     height: 200px;
     width: 350px;
     text-align: center;
     display: inline-block;
+
+}
+
+.aboutext {
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .section {
